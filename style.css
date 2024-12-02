@@ -1,0 +1,136 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+background-color: rgb(245, 174, 245);
+padding: 20px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+
+.navul{
+    display: flex;
+ 
+    column-gap: 60px;
+}
+
+.navul li{
+    list-style-type: none;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+   
+     
+}
+
+.navul li:hover{
+    background-color: white;
+    cursor: pointer;
+    border-radius: 20px;
+   
+   
+    
+}
+
+.container1{
+    height: 500px;
+    width: 1365px;
+  
+    background-image: url(images.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+   background-size: cover;
+   text-align: center;
+   
+}
+.namediv{
+    padding-top: 100px;
+ 
+}
+.namediv h1{
+    padding-bottom: 20px;
+}
+
+.aboutcontainer{
+   
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.abouth1{
+    padding: 20px;
+    text-align: center;
+}
+.section1{
+    height: 400px;
+    width: 300px;
+  
+ padding-top: 140px;
+  
+   
+   
+
+}
+.section1 p{
+    text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.section2{
+    height: 400px;
+    width: 600px;
+    border-left: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding-left: 50px;
+   background-color: rgb(245, 174, 245);
+   border-radius: 20px;
+   
+   
+ 
+}
+
+   
+
+.skillscontainer{
+   
+    
+    margin-top: 20px;
+}
+
+#skills h1{
+    padding: 20px;
+    text-align: center;
+}
+
+.skillslist{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.skillslist li{
+    list-style-type: none;
+  border: 2px solid  rgb(245, 174, 245) ;
+    color:black;
+    padding: 20px;
+    border-radius: 20px;
+
+}
