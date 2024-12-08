@@ -6,13 +6,16 @@
 
 
 
-
+.sidenav{
+    display: none;
+  
+}
 
 .banner{
-    background-image: url(images/cycle2.jpg);
+  background-image: url(images/c3.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-  
+    background-size:cover;
+  background-position: center;
     height:600px ;
     position: relative;
    
@@ -21,10 +24,11 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color:skyblue;
+  color: black;
     position: sticky;
     top: 0px;
     z-index: 1;
+    background-color: skyblue;
 }
 
 
@@ -39,12 +43,32 @@ nav{
     font-size: 20px;
     cursor: pointer;
     
+    
 }
- .navul > li{
+
+.navul >li{
     list-style-type: none;
+
+}
+ .navul > li a{
+   
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-left: 5px;
+   padding-right: 5px;
+   border-radius: 20px;
+  
     
  }
-
+.navul >li a:hover{
+    color: darkblue;
+   
+    
+   
+}
  .about{
     position: relative;
  }
@@ -70,15 +94,17 @@ input{
     
 }
 .inputdiv{
-    width: 300px;
+    width: 700px;
     border-radius:20px ;
     background-color: white;
     padding: 5px;
+    border: 2px solid black;
+   margin: 20px auto;
 }
 .inputdiv i{
     float: right;
     padding: 5px;
-    
+    color: black;
 }
 
 .pagesdropdown{
@@ -90,8 +116,9 @@ input{
 
 .head{
     position: absolute;
-    left: 40px;
-    top: 200px;
+    left: 100px;
+    top: 180px;
+    color: white;
 }
 
 .container1 {
@@ -109,7 +136,7 @@ input{
     
 }
 
-.box1 ,.box2,.box3,.box4{
+.box1 ,.box2,.box3{
     width: 400px;
     text-align: left;
     padding: 50px;
@@ -125,6 +152,7 @@ input{
     flex-wrap: wrap;
     row-gap: 20px;
   justify-content: space-around;
+
    
 
    
@@ -132,13 +160,15 @@ input{
 
 .imagediv{
   position: relative;
-width: 45%;
+width: 25%;
 box-shadow: 2px  2px 4px grey;
+margin-right: 10px;
 
 }
 .imagediv img{
     width: 100%;
-    height: auto;
+   
+
 }
 
 
@@ -147,10 +177,10 @@ box-shadow: 2px  2px 4px grey;
     position: absolute;
     
    top: 50%;
-   left: 50%;
-    padding: 15px 40px;
+   left: 30%;
+    padding: 10px 40px;
     border-radius: 20px;
-    background-color: skyblue;
+    background-color: white;
     border: none;
     
     font-size: 20px;
@@ -159,13 +189,15 @@ box-shadow: 2px  2px 4px grey;
   
 }
 
+.container3 button:hover{
+    background-color: orange;
+}
+
 .container4{
     display: flex;
-    justify-content: space-between;
+  justify-content: center;
     flex-wrap: wrap;
-    background-image: url(images/cycle2.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+ 
     
 }
 
@@ -175,10 +207,21 @@ box-shadow: 2px  2px 4px grey;
     padding: 50px;
     box-shadow: 2px 2px  4px grey;
     margin: 10px;
-    border-radius: 50%;
+    border-radius: 20px;
 
 }
 
+.load{
+    cursor: pointer;
+background-color: grey;
+font-size: 20px;
+
+    color: white;
+    border-radius: 20px;
+}
+.load:hover{
+    background-color: darkgray;
+}
 
 
 
@@ -199,6 +242,7 @@ box-shadow: 2px  2px 4px grey;
   box-shadow: 0px 5px 5px 5px grey;
 margin-bottom: 20px;
 margin-right: 20px;
+border-radius: 20px;
 
 }
 
@@ -236,6 +280,94 @@ button{
 .container5 p{
     font-size: 20px;
 }
+
+
+.container5{
+    padding-bottom: 200px;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .navul{
+display: none;
+    }
+
+    .sidenav{
+        display: block;
+        position: absolute;
+        z-index: 1;
+        position: sticky;
+        top: 20px;
+     
+       
+    }
+.sidenav i{
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+ 
+}
+
+    .open{
+        display: none;
+       height: auto;
+     width: auto;
+       background-color: white;
+       padding-right: 30px;
+       float: left;
+       position: absolute;
+       z-index: 1;
+       box-shadow: 2px 2px 2px gray;
+
+    }
+.open > ul li{
+    list-style-type: none;
+    padding-top: 20px;
+    
+
+}
+
+.open > ul a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+.sidenav:hover .open{
+    display: block;
+}
+.container2{
+    margin-top: 20px;
+    display: flex;
+  flex-direction: column;
+    
+}
+
+.box1 ,.box2,.box3{
+    width: 450px;
+    margin: 10px auto;
+ 
+}
+
+.feature{
+    border-radius: 20px;
+    background: none;
+    margin: 10px auto;
+}
+
+.inputdiv{
+    width: 300px;
+}
+
+
+
+
+    
+}
+
+
 
 
 
