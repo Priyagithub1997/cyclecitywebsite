@@ -137,7 +137,7 @@ input{
 }
 
 .box1 ,.box2,.box3{
-    width: 400px;
+    width: auto;
     text-align: left;
     padding: 50px;
     box-shadow: 2px  2px 4px skyblue;
@@ -203,12 +203,12 @@ margin-right: 10px;
 
 .feature{
     width: 400px;
-    text-align: left;
+    text-align: center;
     padding: 50px;
     box-shadow: 2px 2px  4px grey;
     margin: 10px;
     border-radius: 20px;
-
+    text-align: center;
 }
 
 .load{
@@ -236,13 +236,18 @@ font-size: 20px;
 
 .card{
     background-color: white;
-    height: 350px;
-    width: 250px;
+    height: auto;
+    width: auto;
     text-align: center;
   box-shadow: 0px 5px 5px 5px grey;
 margin-bottom: 20px;
 margin-right: 20px;
 border-radius: 20px;
+
+}
+
+.remove,.buy{
+    margin: 10px 10px;
 
 }
 
@@ -264,6 +269,8 @@ button{
     background-color: orange;
     color: black;
     border: none;
+    border-radius: 20px;
+    margin-bottom: 10px;
 }
 
 .container5{
@@ -299,6 +306,7 @@ display: none;
         z-index: 1;
         position: sticky;
         top: 20px;
+
      
        
     }
@@ -313,7 +321,7 @@ display: none;
         display: none;
        height: auto;
      width: auto;
-       background-color: white;
+       background-color: black;
        padding-right: 30px;
        float: left;
        position: absolute;
@@ -330,7 +338,7 @@ display: none;
 
 .open > ul a{
     text-decoration: none;
-    color: black;
+    color: white;
     
 }
 
@@ -346,7 +354,7 @@ display: none;
 }
 
 .box1 ,.box2,.box3{
-    width: 450px;
+    width: auto;
     margin: 10px auto;
  
 }
@@ -355,6 +363,7 @@ display: none;
     border-radius: 20px;
     background: none;
     margin: 10px auto;
+    
 }
 
 .inputdiv{
